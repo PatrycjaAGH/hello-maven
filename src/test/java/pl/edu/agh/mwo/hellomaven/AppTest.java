@@ -13,9 +13,5 @@ public class AppTest {
         Assert.assertTrue(true);
     }
     
-    @Test
-    public void testRandomDiceRoll() {
-        int randomNumber = new App().getRandomNumber();
-        Assert.assertEquals("The dice is not fair.", 4, randomNumber);
-    }
+
 }
